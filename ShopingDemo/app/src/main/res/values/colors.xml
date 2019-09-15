@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#2874f0</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorText">#635F5F</color>
+    <color name="colorBlack">#000000</color>
+
+
+    <color name="color1">#079BD2</color>
+    <color name="color2">#24BF09</color>
+    <color name="color3">#DC3646</color>
+    <color name="color4">#02427A</color>
+
+    <color name="gradient_start">#5770f3</color>
+    <color name="gradient_end">#8e5aeb</color>
+    <color name="profile_desc">#D1D1FF</color>
+    <color name="bg_meta_container">#000000</color>
+    <color name="profile_default_tint">#e0e0e0</color>
+</resources>

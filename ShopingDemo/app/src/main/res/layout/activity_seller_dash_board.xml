@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.activities.SellerDashBoard">
+
+    <abhi.main.shopingdemo.ui.customViews.ButtonPlus
+        android:id="@+id/btnAddPrduct"
+        style="@style/large_button_style"
+        android:layout_marginTop="20dp"
+        android:text="Add New Product" />
+
+
+    <abhi.main.shopingdemo.ui.customViews.ButtonPlus
+        android:id="@+id/btnShowProduct"
+        style="@style/large_button_style"
+        android:layout_marginTop="20dp"
+        android:text="My Product" />
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"/>
+
+    <abhi.main.shopingdemo.ui.customViews.AppFontBoldTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack" />
+
+
+    <abhi.main.shopingdemo.ui.customViews.EditTextPlus
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="User Name"
+        style="@style/loginEditTextStyle"
+        android:text=""
+        android:inputType="textPersonName" />
+
+        <abhi.main.shopingdemo.ui.customViews.EditTextPlus
+            android:id="@+id/useremail"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:hint="Email Id"
+            style="@style/loginEditTextStyle"
+            android:inputType="textEmailAddress" />
+
+    <abhi.main.shopingdemo.ui.customViews.EditTextPlus
+        android:id="@+id/userMob"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:hint="Mobile Number"
+        android:maxLength="10"
+        style="@style/loginEditTextStyle"
+        android:inputType="phone" />
+
+    <abhi.main.shopingdemo.ui.customViews.AppFontBoldTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="User Type *"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Spinner
+            android:id="@+id/spUserType"
+            style="@style/spinnerStyle" />
+
+        <ImageView
+            style="@style/fieldIndicatorImageViewStyle"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/down_arrow_icon" />
+
+    </RelativeLayout>
+
+
+
+        <abhi.main.shopingdemo.ui.customViews.EditTextPlus
+            android:id="@+id/etpassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            style="@style/loginEditTextStyle"
+            android:inputType="textPassword"/>
+
+
+        <abhi.main.shopingdemo.ui.customViews.ButtonPlus
+        android:id="@+id/btn_signUP"
+        style="@style/large_button_style"
+        android:layout_marginTop="20dp"
+        android:text="Sign Ip" />
+
+</LinearLayout>
